@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    {% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <title>Hoje tem clutch do KSCERATO?</title>
+    {% endblock %}
+  </head>
+  <body>
+    <div>
+      <h3 id="minor_text">{{h3}}</h3>
+      <h2 id="major_text">{{h2}}</h2>
+    </div>
+  </body>
+</html>
